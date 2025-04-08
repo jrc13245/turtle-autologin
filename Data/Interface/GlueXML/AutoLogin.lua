@@ -223,7 +223,7 @@ function LoginManager:MakeExtraAccountButtons()
     local buttonText = GetLocalizedText("LockAccounts") -- Dynamic width depending on the text
     lockButton:SetText(buttonText)
     local textWidth = lockButton:GetFontString():GetStringWidth()
-    lockButton:SetWidth(textWidth + 40) -- Add indents to the edges
+    lockButton:SetWidth(textWidth + 50) -- Add indents to the edges
     lockButton:SetHeight(35)
     lockButton:SetPoint("RIGHT", quitButton, "LEFT", 4, 0)
     lockButton:SetText(GetLocalizedText("LockAccounts"))
@@ -550,7 +550,7 @@ function LoginManager:OnCharactersLoad()
     local buttonText = GetLocalizedText("LockCharacters") -- Dynamic width depending on the text
     lockButton:SetText(buttonText)
     local textWidth = lockButton:GetFontString():GetStringWidth()
-    lockButton:SetWidth(textWidth + 40) -- Add indents to the edges
+    lockButton:SetWidth(textWidth + 50) -- Add indents to the edges
     lockButton:SetHeight(35)
     lockButton:SetPoint("LEFT", addonsButton, "RIGHT", 4, 0)
     lockButton:SetText(GetLocalizedText("LockCharacters"))
