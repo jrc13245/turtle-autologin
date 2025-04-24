@@ -624,7 +624,6 @@ function LoginManager:OnCharactersLoad()
     end
   end
 
-
   self:UpdateUI()
 end
 

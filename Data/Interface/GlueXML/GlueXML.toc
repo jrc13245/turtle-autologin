@@ -18,6 +18,7 @@ MovieFrame.xml
 GlueTooltip.xml
 RealmWizard.xml
 CreditsFrame.xml
+ChallengeList.xml
 
-# Autologin 2.2.2
+# Autologin 2.2.3
 AutoLogin.xml
